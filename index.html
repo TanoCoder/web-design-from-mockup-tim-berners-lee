@@ -6,47 +6,77 @@
     <title>Tim Berners-Lee</title>
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
+
 </head>
 
 <body>
-    
-    <img src="images/tim-berners-lee.jpeg" alt="Tim Berners-Lee">
-    
-    <h1>Tim Berners-Lee</h1>
-    
-    <h2>Inventor of HTML</h2>
-    
-    <p class="x_small">Tim Berners-Lee is the <strong>inventor</strong> of the Web. 
-       In 1989, Tim was working in a computer services section of the CERN when he came up
-       with the concept: at the time he had no idea that it would be implemented 
-       on such an <strong>enormous scale.</strong>
-    </p>
+    <main>    
+        <div class="div_main_common div_main_center_items">
+            <img class="img_cercle" src="images/tim-berners-lee.jpeg" alt="Tim Berners-Lee">
+        
+            <h1>Tim Berners-Lee</h1>
+        
+            <h2>Inventor of HTML</h2>
+        
+            <p class="txt_align_left">Tim Berners-Lee is the <strong>inventor</strong> of the Web. 
+                In 1989, Tim was working in a computer services section of the CERN when he came up
+                with the concept: at the time he had no idea that it would be implemented 
+                on such an <strong>enormous scale.</strong>
+            </p>
 
-    <p class="blue_underlined">See for yourself</p>
-    <ul>
-        <li><a href="https://fr-fr.facebook.com/tim.bernerslee.1460" target="_blank">Facebook</a></li>
-        <li><a href="https://www.linkedin.com/company/world-wide-web-foundation/" target="_blank">Linkedin</a></li>
-        <li><a href="https://twitter.com/timberners_lee" target="_blank">Twitter</a></li>
-    </ul>    
+            <p class="btn_see">See for yourself</p>
+        </div>    
+        
+        <div class="div_main_common">
+            <ul class = "gray">
+                <li>               
+                    <i class="fab fa-facebook-f fa-2x"></i>   
+                    <a href="https://fr-fr.facebook.com/tim.bernerslee.1460" target="_blank">Facebook</a></li>                
+                <li>                
+                    <i class="fab fa-linkedin-in fa-2x"></i>                           
+                    <a href="https://www.linkedin.com/company/world-wide-web-foundation/" target="_blank">Linkedin</a></li>                
+                <li>
+                    <i class="fab fa-twitter fa-2x"></i>                
+                    <a href="https://twitter.com/timberners_lee" target="_blank">Twitter</a></li>                
+            </ul>
+        </div>    
 
-    <p><strong>His favorite movies.</strong></p>
-    <img src="images/tim-favorite-movie-2001-space-odyssey.jpeg" alt="2001 Space Odyssey">
-    <p class="x_small"><strong>2001 Space Odyssey</strong></p>
-    <p class="x_small">Humanity find a mysterious, obviously artificial, object buried beneath the Kunar surface and,
-       with the intelligent computer H.A.L. 9000. sets off on a quest.
-    </p>
+        <div class="div_main_common">
+            <p><strong><span class="background_color_gray">His</span> favorite movies.</strong></p>
+        
+            <section class="movies">
+                <img src="images/tim-favorite-movie-2001-space-odyssey.jpeg" alt="2001 Space Odyssey">
+                <div class="adjust_width">
+                    <p><strong>2001 Space Odyssey</strong></p>
+                    <p class="txt_align_left">Humanity find a mysterious, obviously artificial, object buried beneath the Kunar surface and,
+                        with the intelligent computer H.A.L. 9000. sets off on a quest.
+                    </p>
+                </div>
+            </section>
 
-    <img src="images/tim-favorite-movie-mr-hulot.jpeg" alt="Mr Hulot">
-    <p class="x_small"><strong>Mr Hulot</strong></p>
-    <p class="x_small">Mr Hulot comes to a beachside hotel for vacation, 
-        where he accidentally (but good-naturedly) causes havoc.
-    </p>
-   
-    <img src="images/tim-favorite-movie-alien.jpeg" alt="Mr Hulot">
-    <p class="x_small"><strong>Alien</strong></p>
-    <p class="x_small">The commercial vessel Nostromo receive a distress from an unexplored planet.
-        After searching for survivors, the crew heads home only to realize that a deadly bloform joined.
-    </p>
+            <section class="movies">
+                <img src="images/tim-favorite-movie-mr-hulot.jpeg" alt="Mr Hulot">
+                <div class="adjust_width">
+                    <p><strong>Mr Hulot</strong></p>
+                    <p class="txt_align_left">Mr Hulot comes to a beachside hotel for vacation, 
+                        where he accidentally (but good-naturedly) causes havoc.
+                    </p>
+                </div>
+            </section>
+    
+            <section class="movies">
+                <img src="images/tim-favorite-movie-alien.jpeg" alt="Mr Hulot">
+                <div class="adjust_width">
+                    <p><strong>Alien</strong></p>
+                    <p class="txt_align_left">The commercial vessel Nostromo receive a distress from an unexplored planet.
+                        After searching for survivors, the crew heads home only to realize 
+                        that a deadly bioform joined them.
+                    </p>
+                </div>
+            </section>
 
+        </div>
+    </main>
 </body>
 </html>
