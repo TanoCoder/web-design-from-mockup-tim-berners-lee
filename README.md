@@ -1,6 +1,6 @@
 # Tim Berners-Lee
 
-## Github Page: https://gaetano-di-salvo.github.io/tim-berners-lee/
+## Github Page: https://gaetano-di-salvo.github.io/web-design-from-mockup-tim-berners-lee/
 
 ## Optionnel
 
